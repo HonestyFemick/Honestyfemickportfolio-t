@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+li {
+    color: #fff;
+}
+
+p {
+    color: #fff;
+}
+
+.section {
+    padding: 2rem 0;
+    border-radius: 10px;
+   
+    
+}
+
+.project {
+    background: #6b6565;
+    color: #fff;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.project ul {
+    
+     
+    list-style-type: circle; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+}
+
+.project li {
+    margin: 10px; /* Add some margin around each list item */
+    color: #fff; /* Keep the text color */
+    flex: 1 1 auto; /* Allow items to grow and shrink as needed */
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: white;
+}
+
+nav {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #6b6565; /* Solid background color */
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Add shadow */
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff; /* Link color */
+    font-weight: bold;
+    font-size: 1.2rem; /* Increase font size */
+}
+
+nav a:hover {
+    color: #FFD700; /* Change color on hover */
+}
+
+nav li {
+    display: inline-block;
+}
+
+
+body {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 10px;
+    color: white;
+    position: relative;
+    background: url('black-and-white-office-desk-desktop-i5qgtxi9v4hw81fv.jpg');
+    background-position: center;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    backdrop-filter: blur 10px;
+}
+
+
+.about-content {
+    display: flex; /* Enable flexbox */
+    align-items: center; /* Center items vertically */
+    justify-content: flex-start; /* Align items to the start */
+    margin: 2rem 0; /* Add some margin for spacing */
+}
+
+.about-content img {
+    width: 300px; /* Set width */
+    height: 300px; /* Set height to create a square */
+    object-fit: cover; /* Crop the image to fill the square */
+    border-radius: 10px; /* Optional: add rounded corners */
+    margin-right: 20px; /* Space between image and text */
+}
+
+.about-content p {
+    flex: 1; /* Allow text to take up remaining space */
+    max-width: 600px; /* Set a max width for better readability */
+    font-size: 1rem; /* Font size */
+    line-height: 1.5; /* Increase line height for readability */
+    text-align: left; /* Align the paragraph text to the left */
+}
+
+.about-content h3 {
+    text-align: center;
+    margin-bottom: 40px;
+   font-size: xx-large;
+   font-weight:900;
+}
+
+.container h3 {
+    margin-top: 20px;
+    font-size:x-large;
+    font-weight: 900;
+    margin-bottom: 10px;
+
+}
